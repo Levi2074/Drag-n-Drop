@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "listdrag",
+  "version": "${version}",
+  "name": "Drag n Drop",
+  "description": "Einträge in der Serverliste und der Texturepack-Liste per Rechtsklick ziehen und verschieben, mit Live-Vorschau.",
+  "authors": ["you"],
+  "license": "MIT",
+  "icon": "assets/listdrag/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.listdrag.ListDragClient"]
+  },
+  "mixins": ["listdrag.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
