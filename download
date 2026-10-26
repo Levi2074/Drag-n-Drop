@@ -1,6 +1,0 @@
-.gradle/
-.gradle-bootstrap/
-build/
-run/
-.idea/
-*.iml
